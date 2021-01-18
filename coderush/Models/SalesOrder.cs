@@ -18,13 +18,8 @@ namespace coderush.Models
         public DateTimeOffset OrderDate { get; set; }
         public DateTimeOffset DeliveryDate { get; set; }
 
-        [Display(Name = "Currency")]
-        public int CurrencyId { get; set; }
-
         [Display(Name = "Customer Ref. Number")]
         public string CustomerRefNumber { get; set; }
-        [Display(Name = "Sales Type")]
-        public int SalesTypeId { get; set; }
         public string Remarks { get; set; }
         public double Amount { get; set; }
         public double SubTotal { get; set; }
